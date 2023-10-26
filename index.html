@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chenque Fogones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Chenque Fogones</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>Bienvenido a la mejor selección de fogones</h2>
+        <p>Encuentra los fogones más modernos y eficientes para tu hogar.</p>
+        <a href="#carrito" class="cta-button">Ver Carrito</a>
+    </section>
+
+    <section class="productos" id="productos">
+        <!-- Los productos se cargarán dinámicamente aquí -->
+    </section>
+
+    <section id="carrito" class="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="carrito-list"></ul>
+        <div id="total">
+            Total: $<span id="total-precio">0</span>
+        </div>
+        <button id="cancelar-compra" class="cta-button">Cancelar Compra</button>
+        <button id="comprar" class="cta-button">Comprar</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Chenque Fogones</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

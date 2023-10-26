@@ -1,0 +1,2 @@
+Mi proyecto se basa en un ecommerce destinado a la venta de fogones.
+ Arme un sitio con las 3 variantes de fogones disponibles y sus precios; ademas hice un carrito de compras que permite borrar todos los productos de a uno o todos a la vez, los cuales al ser agregados son almacenados en el localStorage. Tambien, utilizo el DOM para actualizar la interfaz de usuario en tiempo real, permitir a los usuarios agregar productos al carrito y almacenar datos localmente. Mi idea es avanzar mas el diseño y la funcionalidad.

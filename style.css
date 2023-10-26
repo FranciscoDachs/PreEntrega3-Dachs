@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos de la barra de navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos del banner */
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+/* Estilos de los botones de llamada a la acción */
+.cta-button {
+    background-color: orange;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: none;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #ff9933; /* Cambia de color al pasar el mouse */
+}
+
+/* Estilos de productos */
+.productos {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+/* Estilos de elementos individuales del producto */
+.producto {
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.producto img {
+    width: 250px;
+    height: 300px;
+}
+
+.precio {
+    font-weight: bold;
+    color: black;
+}
+
+/* Estilos del carrito */
+.carrito {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#carrito-list li{
+    margin-top: 15px;
+}
+/* Estilos de pie de página */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
